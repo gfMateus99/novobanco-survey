@@ -53,12 +53,16 @@ function InicialComponent(props) {
       <CardContent>
 
         <Typography variant="h7" sx={{display:"flex", textAlign:"left",mt: 1}}>
-        This survey consists of the classification of 250 tweets related to Novo Banco. In this survey, each participant will classify 50 different tweets in a way that each tweet is classified by at least 5 different persons.
-        </Typography>
+        This survey consists of the classification of 250 tweets related to Novo Banco. In this survey, each participant will classify 50 different tweets in a way that at least 5 different persons classify each tweet.        </Typography>
       
         <Typography variant="h7" sx={{display:"flex", textAlign:"left",mt: 1}}>
-        In order to start your participation, we kindly ask you to fill in the following camps and at the end of the quiz please send the file that will be downloaded to: gf.mateus@campus.fct.unl.pt
+        In order to start your participation, we kindly ask you to fill in the following camps. 
+      
         </Typography>
+
+        <Typography variant="h7" sx={{display:"flex", textAlign:"left",mt: 1}}>
+        Note: At the end of this questionnaire a file will be automatically downloaded. To finish your participation in this survey, please send that file to gf.mateus@campus.fct.unl.pt        </Typography>
+        
 
         <Typography variant="h7" sx={{display:"flex", textAlign:"left",mt: 1}}>
         Thank you for your participation!
