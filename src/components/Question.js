@@ -2,20 +2,13 @@
 import React, {useState} from "react";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
-import Radio from '@mui/material/Radio';
-import RadioGroup from '@mui/material/RadioGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import FormControl from '@mui/material/FormControl';
-import FormLabel from '@mui/material/FormLabel';
-import LinearProgress from "@mui/material/LinearProgress";
+import { Button, CardActions } from '@mui/material';
+
 import Progress from './Progress'
 
 function Question(props) {
 
-  const [currentQuestion, setcurrentQuestion] = useState(0);
   const [positive, setPositive] = useState(false);
   const [negative, setNegative] = useState(false);
   const [neutral, setNeutral] = useState(false);
