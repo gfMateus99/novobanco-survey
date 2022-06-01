@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/novobanco-survey/static/css/main.073c9b0a.css",
+    "main.js": "/novobanco-survey/static/js/main.b32dab22.js",
+    "static/js/787.28cb0dcd.chunk.js": "/novobanco-survey/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/novobanco-survey/index.html",
+    "main.073c9b0a.css.map": "/novobanco-survey/static/css/main.073c9b0a.css.map",
+    "main.b32dab22.js.map": "/novobanco-survey/static/js/main.b32dab22.js.map",
+    "787.28cb0dcd.chunk.js.map": "/novobanco-survey/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b32dab22.js"
+  ]
+}
