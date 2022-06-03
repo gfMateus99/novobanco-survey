@@ -92,7 +92,6 @@ function App() {
         </div>
         <div style={{width:"50%", marginTop:5, marginLeft:20}}>
           <img style={{width:"100%"}} src={novobanco} alt="Logo" />
-
         </div>
       </div>
 
