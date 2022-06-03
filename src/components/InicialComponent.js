@@ -56,7 +56,7 @@ function InicialComponent(props) {
         The purpose of this study consists of classifying 250 tweets related to "Novo Banco". In this study, each participant will classify 50 different tweets so that at least five different persons classify each tweet.        </Typography>
       
         <Typography variant="h7" sx={{display:"flex", textAlign:"left",mt: 1}}>
-        We kindly ask you to fill in the following camps to start your participation. When classifying the tweets, please read the options with attention to avoid responses without sense.
+        We kindly ask you to fill in the following camps to start your participation. When classifying the tweets, please read the options with attention to avoid responses without sense. You should answer the questions from the "Novo Banco" point of view.
       
         </Typography>
 
