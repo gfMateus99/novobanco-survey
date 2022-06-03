@@ -83,9 +83,18 @@ function App() {
   return (
     <div className="App">
       
-      <h1 style={{marginBottom:30, textAlign:"left", marginLeft:90}}>Twitter data annotation</h1>
-      <img style={{width:"15%", position:"absolute", top:20, right:300}} src={logo} alt="Logo" />
-      <img style={{width:"15%",position:"absolute", top:22, right:80}} src={novobanco} alt="Logo" />
+      <h1 style={{marginBottom:30, textAlign:"left", marginLeft:"5%"}}>Twitter data annotation</h1>
+
+      <div style={{display:"flex",width:420, height:50, position:"absolute", top:20, right:"5%"}} >
+        <div style={{width:"50%"}}>
+        <img style={{width:"100%"}} src={logo} alt="Logo" />
+
+        </div>
+        <div style={{width:"50%", marginTop:5, marginLeft:20}}>
+          <img style={{width:"100%"}} src={novobanco} alt="Logo" />
+
+        </div>
+      </div>
 
 
       {initial ?
