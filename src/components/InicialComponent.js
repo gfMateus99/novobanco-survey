@@ -53,15 +53,15 @@ function InicialComponent(props) {
       <CardContent>
 
         <Typography variant="h7" sx={{display:"flex", textAlign:"left",mt: 1}}>
-        This survey consists of the classification of 250 tweets related to Novo Banco. In this survey, each participant will classify 50 different tweets in a way that at least 5 different persons classify each tweet.        </Typography>
+        The purpose of this study consists of classifying 250 tweets related to "Novo Banco". In this study, each participant will classify 50 different tweets so that at least five different persons classify each tweet.        </Typography>
       
         <Typography variant="h7" sx={{display:"flex", textAlign:"left",mt: 1}}>
-        In order to start your participation, we kindly ask you to fill in the following camps. 
+        We kindly ask you to fill in the following camps to start your participation. When classifying the tweets, please read the options with attention to avoid responses without sense.
       
         </Typography>
 
         <Typography variant="h7" sx={{display:"flex", textAlign:"left",mt: 1}}>
-        Note: At the end of this questionnaire a file will be automatically downloaded. To finish your participation in this survey, please send that file to gf.mateus@campus.fct.unl.pt        </Typography>
+        <div style={{fontWeight: "bold"}}>Note </div> : A file will be automatically downloaded at the end of this questionnaire. To complete your participation in this study, please send that file to  gf.mateus@campus.fct.unl.pt       </Typography>
         
 
         <Typography variant="h7" sx={{display:"flex", textAlign:"left",mt: 1}}>
@@ -104,7 +104,7 @@ function InicialComponent(props) {
 
       <CardActions>
         <Button sx={{marginLeft: "auto", marginRight:'8px', marginTop:"0px", width:200}} size="small" color="primary" variant="outlined" onClick={startSurvey}>
-          Start survey
+          Start participation
         </Button>
       </CardActions>
     </Card>

@@ -6,6 +6,11 @@ import database from "./db/manualJson.json";
 import Question from "./components/Question";
 import InicialComponent from "./components/InicialComponent";
 
+import logo from "./logo_fct.png"
+import novobanco from "./novobanco.png"
+
+
+
 function App() {
 
   const [db, setValue] = useState(database);
@@ -78,8 +83,11 @@ function App() {
   return (
     <div className="App">
       
-      <h1>Data annotation survey - Novo Banco</h1>
-    
+      <h1 style={{marginBottom:30, textAlign:"left", marginLeft:70}}>Twitter data annotation</h1>
+      <img style={{width:"15%", position:"absolute", top:20, right:300}} src={logo} alt="Logo" />
+      <img style={{width:"15%",position:"absolute", top:22, right:80}} src={novobanco} alt="Logo" />
+
+
       {initial ?
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', width:"100%", minHeight:200}}>
           <InicialComponent startSurvey={startSurvey}></InicialComponent>       
