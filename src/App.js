@@ -8,7 +8,7 @@ import InicialComponent from "./components/InicialComponent";
 
 import logo from "./logo_fct.png"
 import novobanco from "./novobanco.png"
-
+import End from './components/End'
 
 
 function App() {
@@ -18,6 +18,10 @@ function App() {
   const [currentQuestion, setcurrentQuestion] = useState(0);
   const [initial, setinitial] = useState(true);
   const [namefinal, setnamefinal] = useState("");
+
+
+  const [end, setend] = useState(false);
+
 
   const [finish, setfinish] = useState(50);
   const [idtofill, setidtofill] = useState("");
@@ -39,7 +43,7 @@ function App() {
       link.click();
       document.body.removeChild(link);
       alert("Thank you for your participation! Please send the file to gf.mateus@campus.fct.unl.pt")
-      setinitial(true)
+      setend(true)
       tentativa = database;
     }
 
@@ -95,8 +99,15 @@ function App() {
         </div>
       </div>
 
+      {end ? 
+              <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', width:"100%", minHeight:200}}>
 
-      {initial ?
+      <End downloadFile={downloadFile}></End>
+      </div>
+
+      : 
+
+      initial ?
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', width:"100%", minHeight:200}}>
           <InicialComponent startSurvey={startSurvey}></InicialComponent>       
         </div>
@@ -104,6 +115,7 @@ function App() {
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', width:"100%", minHeight:200}}>
           <Question key={currentQuestion} tweet={tentativa[currentQuestion].text} oficialIndex={currentQuestion} currentQuestion={currentQuestion-(50*(idtofill-1))} clickToNext={clickToNext}></Question>
         </div>
+      
       }
 
     </div>
