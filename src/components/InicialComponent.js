@@ -61,7 +61,7 @@ function InicialComponent(props) {
         </Typography>
 
         <Typography variant="h7" sx={{display:"block", textAlign:"left",mt: 1}}>
-        <strong>Note </strong> : A file will be automatically downloaded at the end of this questionnaire. To complete your participation in this study, please send that file to  <a href="gf.mateus@campus.fct.unl.pt">gf.mateus@campus.fct.unl.pt</a>       </Typography>
+        <strong>Note</strong>: A file will be automatically downloaded at the end of this questionnaire. To complete your participation in this study, please send that file to  <a href="gf.mateus@campus.fct.unl.pt">gf.mateus@campus.fct.unl.pt</a>       </Typography>
         
 
         <Typography variant="h7" sx={{display:"flex", textAlign:"left",mt: 1}}>
