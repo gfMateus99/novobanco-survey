@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/novobanco-survey/static/css/main.073c9b0a.css",
-    "main.js": "/novobanco-survey/static/js/main.08ccbfe6.js",
+    "main.js": "/novobanco-survey/static/js/main.cdee3dc7.js",
     "static/js/787.28cb0dcd.chunk.js": "/novobanco-survey/static/js/787.28cb0dcd.chunk.js",
     "static/media/logo_fct.png": "/novobanco-survey/static/media/logo_fct.3cc9755f8e4d386d858c.png",
     "index.html": "/novobanco-survey/index.html",
     "main.073c9b0a.css.map": "/novobanco-survey/static/css/main.073c9b0a.css.map",
-    "main.08ccbfe6.js.map": "/novobanco-survey/static/js/main.08ccbfe6.js.map",
+    "main.cdee3dc7.js.map": "/novobanco-survey/static/js/main.cdee3dc7.js.map",
     "787.28cb0dcd.chunk.js.map": "/novobanco-survey/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.08ccbfe6.js"
+    "static/js/main.cdee3dc7.js"
   ]
 }
