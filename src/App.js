@@ -83,7 +83,7 @@ function App() {
   return (
     <div className="App">
       
-      <h1 style={{marginBottom:30, textAlign:"left", marginLeft:70}}>Twitter data annotation</h1>
+      <h1 style={{marginBottom:30, textAlign:"left", marginLeft:90}}>Twitter data annotation</h1>
       <img style={{width:"15%", position:"absolute", top:20, right:300}} src={logo} alt="Logo" />
       <img style={{width:"15%",position:"absolute", top:22, right:80}} src={novobanco} alt="Logo" />
 
@@ -94,7 +94,7 @@ function App() {
         </div>
         :
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', width:"100%", minHeight:200}}>
-          <Question key={currentQuestion} tweet={tentativa[currentQuestion].text} currentQuestion={currentQuestion-(50*(idtofill-1))} clickToNext={clickToNext}></Question>
+          <Question key={currentQuestion} tweet={tentativa[currentQuestion].text} oficialIndex={currentQuestion} currentQuestion={currentQuestion-(50*(idtofill-1))} clickToNext={clickToNext}></Question>
         </div>
       }
 

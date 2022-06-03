@@ -36,13 +36,13 @@ function Question(props) {
     const clickToNext = () => {
         if(positive | negative | neutral){
             if(positive){
-                props.clickToNext(props.currentQuestion, 1)
+                props.clickToNext(props.oficialIndex, 1)
             }
             if(negative){
-                props.clickToNext(props.currentQuestion, -1)
+                props.clickToNext(props.oficialIndex, -1)
             }            
             if(neutral){
-                props.clickToNext(props.currentQuestion, 0)
+                props.clickToNext(props.oficialIndex, 0)
             }
             
         }else {

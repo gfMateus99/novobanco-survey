@@ -47,27 +47,26 @@ function InicialComponent(props) {
     }
 
   return (
-    <Card sx={{ width: "90%", minHeight: 420,boxShadow:
+    <Card sx={{ width: "90%", mb:5,minHeight: 420,boxShadow:
         "0px 3px 1px -2px ,0px 2px 2px 0px ,0px 1px 5px 0px " }}>
 
       <CardContent>
 
-        <Typography variant="h7" sx={{display:"flex", textAlign:"left",mt: 1}}>
-        The purpose of this study consists of classifying 250 tweets related to "Novo Banco". In this study, each participant will classify 50 different tweets so that at least five different persons classify each tweet.        </Typography>
+        <Typography variant="h7" sx={{display:"block", textAlign:"left",mt: 1}}>
+        The purpose of this study consists of classifying 250 tweets related to "Novo Banco". In this study, each participant will classify into three categories, 50 different tweets so that at least five different persons classify each tweet.              </Typography>
       
-        <Typography variant="h7" sx={{display:"flex", textAlign:"left",mt: 1}}>
-        We kindly ask you to fill in the following camps to start your participation. When classifying the tweets, please read the options with attention to avoid responses without sense. You should answer the questions from the "Novo Banco" point of view.
-      
+        <Typography variant="h7" sx={{display:"block", textAlign:"left",mt: 1}}>
+        We kindly ask you to fill in the following camps to start your participation. <strong>When classifying tweets, all the options will remain the same, so please, when you start the questionnaire, read the options with attention to avoid answers with no sense.</strong> As this work is about "Novo Banco", it would help if you answered the questions from the "Novo Banco" point of view.
+        
         </Typography>
 
-        <Typography variant="h7" sx={{display:"flex", textAlign:"left",mt: 1}}>
-        <div style={{fontWeight: "bold"}}>Note </div> : A file will be automatically downloaded at the end of this questionnaire. To complete your participation in this study, please send that file to  gf.mateus@campus.fct.unl.pt       </Typography>
+        <Typography variant="h7" sx={{display:"block", textAlign:"left",mt: 1}}>
+        <strong>Note </strong> : A file will be automatically downloaded at the end of this questionnaire. To complete your participation in this study, please send that file to  <a href="gf.mateus@campus.fct.unl.pt">gf.mateus@campus.fct.unl.pt</a>       </Typography>
         
 
         <Typography variant="h7" sx={{display:"flex", textAlign:"left",mt: 1}}>
         Thank you for your participation!
         </Typography>
-
 
         <FormControl fullWidth>
 
