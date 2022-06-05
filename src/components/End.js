@@ -30,7 +30,7 @@ function End(props) {
         </Typography>
       
         <Typography variant="h7" sx={{display:"block", textAlign:"left",mt: 1}}>
-            Please send the file to <a href="gf.mateus@campus.fct.unl.pt">gf.mateus@campus.fct.unl.pt</a>    
+            Please send the file to <a href="mailto:gf.mateus@campus.fct.unl.pt?subject=Novobanco Questionnaire">gf.mateus@campus.fct.unl.pt</a>
         </Typography>
 
         <Button sx={{display:"block",ml:0, mt: 5, marginRight:'8px',  width:200}} size="small" color="primary" variant="outlined" onClick={props.downloadFile}>
