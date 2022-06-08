@@ -36,8 +36,8 @@ function InicialComponent(props) {
     };
 
     const startSurvey = (event) => {
-        if(name !== "" && age !== "" && id !== "") {
-            var namefinal = name + "-" + age + "-" + id;
+        if(age !== "" && id !== "") {
+            var namefinal = Math.random().toString(36).substr(2, 9) + "-" + age + "-" + id;
             console.log(namefinal)
             props.startSurvey(namefinal, id)
         } else {
@@ -67,11 +67,6 @@ function InicialComponent(props) {
         <Typography variant="h7" sx={{display:"flex", textAlign:"left",mt: 1}}>
         Thank you for your participation!
         </Typography>
-
-        <FormControl fullWidth>
-
-        <TextField id="standard-basic" sx={{mt: 2}} value={name} label="Name" variant="standard" onChange={handleName}/>
-        </FormControl>
 
         <FormControl sx={{mt: 2}}  fullWidth>
 
