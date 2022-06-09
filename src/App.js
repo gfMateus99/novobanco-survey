@@ -44,7 +44,7 @@ function App() {
       document.body.removeChild(link);
       alert("Thank you for your participation! Please send the file to gf.mateus@campus.fct.unl.pt")
       setend(true)
-      tentativa = database;
+      //tentativa = database;
     }
 
     const clickToNext = (key, polarity) => {
